@@ -1,7 +1,7 @@
 import telebot
 import datetime
 
-TOKEN = "8333569336:AAEnRfkvPqODM_HqYdhMfrH_2qtdf68bXxc"
+TOKEN = "TELEGRAM_BOT_TOKEN"
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(func=lambda message: True, content_types=['text'])
